@@ -1,4 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.reactnativeradaeepdf">
+    package="com.radaee.viewlib">
 
+    <application>
+        <activity
+            android:name="com.radaee.reader.PDFViewAct"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.NoTitleBar" />
+    </application>
 </manifest>
