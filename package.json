@@ -56,8 +56,8 @@
     "typescript": "^3.7.5"
   },
   "peerDependencies": {
-    "react": "*",
-    "react-native": "*"
+    "react": ">= 16.3.2",
+    "react-native": ">= 0.58.2"
   },
   "jest": {
     "preset": "react-native",
@@ -89,7 +89,10 @@
       ]
     }
   },
-  "eslintIgnore": ["node_modules/", "lib/"],
+  "eslintIgnore": [
+    "node_modules/",
+    "lib/"
+  ],
   "prettier": {
     "singleQuote": true,
     "tabWidth": 2,
@@ -116,6 +119,10 @@
   "@react-native-community/bob": {
     "source": "src",
     "output": "lib",
-    "targets": ["commonjs", "module", "typescript"]
+    "targets": [
+      "commonjs",
+      "module",
+      "typescript"
+    ]
   }
 }
