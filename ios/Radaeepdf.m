@@ -4,17 +4,11 @@
 
 RCT_EXPORT_MODULE()
 
-RCT_REMAP_METHOD(Show,
-            path:
+RCT_EXPORT_METHOD(Show:
             (NSString *) path
             password:
-            (NSString *) password
-            findEventsWithResolver:
-            (RCTPromiseResolveBlock) resolve
-            Rejecter:
-            (RCTPromiseRejectBlock) reject) {
+            (NSString *) password) {
     NSLog(@"%@ %@", path, password);
-    resolve(@"OK");
 }
 
 RCT_REMAP_METHOD(Activate,

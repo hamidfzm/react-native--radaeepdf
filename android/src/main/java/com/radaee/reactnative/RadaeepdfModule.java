@@ -2,7 +2,7 @@ package com.radaee.reactnative;
 
 import android.content.Context;
 
-import com.facebook.react.bridge.Callback;
+import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
@@ -14,7 +14,7 @@ public class RadaeepdfModule extends ReactContextBaseJavaModule {
 
     private RadaeePDFManager mPDFManager;
 
-    public RadaeepdfModule(ReactApplicationContext reactContext) {
+    RadaeepdfModule(ReactApplicationContext reactContext) {
         super(reactContext); //required by React Native
         this.context = reactContext;
         mPDFManager = new RadaeePDFManager();
@@ -27,8 +27,8 @@ public class RadaeepdfModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void Activate(int licenseType, String companyName, String mail, String key, Callback result) {
-        result.invoke(mPDFManager.activateLicense(this.context, licenseType, companyName, mail, key));
+    public void Activate(int licenseType, String companyName, String mail, String key, Promise promise) {
+        promise.resolve(mPDFManager.activateLicense(this.context, licenseType, companyName, mail, key));
     }
 
     @ReactMethod
