@@ -7,6 +7,120 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F64B3472458E6E200B80316 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F64B3462458E6E200B80316 /* QuartzCore.framework */; };
+		2F64B3492458E6EE00B80316 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F64B3482458E6EE00B80316 /* CoreGraphics.framework */; };
+		2F64B34B2458E72F00B80316 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F64B34A2458E72F00B80316 /* libc++.tbd */; };
+		2F64B5AD245903AD00B80316 /* OvalColorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B48A245903AC00B80316 /* OvalColorViewController.h */; };
+		2F64B5AF245903AD00B80316 /* PDFOffScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B48C245903AC00B80316 /* PDFOffScreenView.m */; };
+		2F64B5B1245903AD00B80316 /* TextAnnotViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B4AF245903AC00B80316 /* TextAnnotViewController.h */; };
+		2F64B5B2245903AD00B80316 /* BookMarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B4B1245903AC00B80316 /* BookMarkViewController.m */; };
+		2F64B5B3245903AD00B80316 /* RDPDFReflowViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B4B2245903AC00B80316 /* RDPDFReflowViewController.h */; };
+		2F64B5B4245903AD00B80316 /* BookmarkTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B4B3245903AC00B80316 /* BookmarkTableViewController.m */; };
+		2F64B5B5245903AD00B80316 /* PDFHttpStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B4CB245903AC00B80316 /* PDFHttpStream.h */; };
+		2F64B5B6245903AD00B80316 /* PDFReflowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B4CC245903AC00B80316 /* PDFReflowView.m */; };
+		2F64B5B7245903AD00B80316 /* RectColorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B4CD245903AC00B80316 /* RectColorViewController.h */; };
+		2F64B5B8245903AD00B80316 /* RDVFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B4D0245903AC00B80316 /* RDVFinder.h */; };
+		2F64B5B9245903AD00B80316 /* RDVThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B4D1245903AC00B80316 /* RDVThread.m */; };
+		2F64B5BA245903AD00B80316 /* PDFLayoutView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B4D2245903AC00B80316 /* PDFLayoutView.h */; };
+		2F64B5BB245903AD00B80316 /* RDVLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B4D3245903AC00B80316 /* RDVLayout.m */; };
+		2F64B5BC245903AD00B80316 /* RDVPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B4D4245903AC00B80316 /* RDVPage.h */; };
+		2F64B5BD245903AD00B80316 /* RDVSel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B4D5245903AC00B80316 /* RDVSel.h */; };
+		2F64B5BE245903AD00B80316 /* RDVGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B4D6245903AC00B80316 /* RDVGlobal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F64B5BF245903AD00B80316 /* RDVCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B4D7245903AC00B80316 /* RDVCanvas.m */; };
+		2F64B5C0245903AD00B80316 /* PDFGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B4D8245903AC00B80316 /* PDFGridView.m */; };
+		2F64B5C1245903AD00B80316 /* RDVCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B4D9245903AC00B80316 /* RDVCache.m */; };
+		2F64B5C2245903AD00B80316 /* PDFThumbView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B4DA245903AC00B80316 /* PDFThumbView.h */; };
+		2F64B5C3245903AD00B80316 /* RDVLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B4DB245903AC00B80316 /* RDVLayout.h */; };
+		2F64B5C4245903AD00B80316 /* RDVThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B4DC245903AC00B80316 /* RDVThread.h */; };
+		2F64B5C5245903AD00B80316 /* PDFLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B4DD245903AC00B80316 /* PDFLayoutView.m */; };
+		2F64B5C6245903AD00B80316 /* RDVFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B4DE245903AC00B80316 /* RDVFinder.m */; };
+		2F64B5C7245903AD00B80316 /* RDVSel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B4DF245903AC00B80316 /* RDVSel.m */; };
+		2F64B5C8245903AD00B80316 /* RDVPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B4E0245903AC00B80316 /* RDVPage.m */; };
+		2F64B5C9245903AD00B80316 /* PDFGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B4E1245903AC00B80316 /* PDFGridView.h */; };
+		2F64B5CA245903AD00B80316 /* RDVCanvas.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B4E2245903AC00B80316 /* RDVCanvas.h */; };
+		2F64B5CB245903AD00B80316 /* RDVGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B4E3245903AC00B80316 /* RDVGlobal.m */; };
+		2F64B5CC245903AD00B80316 /* PDFThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B4E4245903AC00B80316 /* PDFThumbView.m */; };
+		2F64B5CD245903AD00B80316 /* RDVCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B4E5245903AC00B80316 /* RDVCache.h */; };
+		2F64B5CE245903AD00B80316 /* StrikeoutViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B4E7245903AC00B80316 /* StrikeoutViewController.h */; };
+		2F64B5CF245903AD00B80316 /* UINavigationController+autoRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B4E8245903AC00B80316 /* UINavigationController+autoRotate.m */; };
+		2F64B5D0245903AD00B80316 /* RenderSettingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B4E9245903AC00B80316 /* RenderSettingViewController.h */; };
+		2F64B5D1245903AD00B80316 /* InkColorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B4FB245903AC00B80316 /* InkColorViewController.h */; };
+		2F64B5D2245903AD00B80316 /* RDUPassWord.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B4FC245903AC00B80316 /* RDUPassWord.h */; };
+		2F64B5D3245903AD00B80316 /* RDToolBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B4FD245903AC00B80316 /* RDToolBar.h */; };
+		2F64B5D4245903AD00B80316 /* OutLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B4FE245903AC00B80316 /* OutLineViewController.m */; };
+		2F64B5D5245903AD00B80316 /* RDMoreTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B4FF245903AC00B80316 /* RDMoreTableViewController.m */; };
+		2F64B5D6245903AD00B80316 /* OUTLINE_ITEM.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B501245903AC00B80316 /* OUTLINE_ITEM.m */; };
+		2F64B5D7245903AD00B80316 /* ViewModeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B502245903AC00B80316 /* ViewModeTableViewController.m */; };
+		2F64B5D8245903AD00B80316 /* SettingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B503245903AC00B80316 /* SettingViewController.h */; };
+		2F64B5D9245903AD00B80316 /* UnderLineViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B504245903AC00B80316 /* UnderLineViewController.h */; };
+		2F64B5DA245903AD00B80316 /* ViewModeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B506245903AC00B80316 /* ViewModeViewController.h */; };
+		2F64B5DB245903AD00B80316 /* HighlightColorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B507245903AC00B80316 /* HighlightColorViewController.h */; };
+		2F64B5DC245903AD00B80316 /* RDLoPDFViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B508245903AC00B80316 /* RDLoPDFViewController.h */; };
+		2F64B5DD245903AD00B80316 /* RDFileTableController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B509245903AC00B80316 /* RDFileTableController.h */; };
+		2F64B5DE245903AD00B80316 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B51C245903AC00B80316 /* MoreViewController.m */; };
+		2F64B5DF245903AD00B80316 /* LineMarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B51E245903AC00B80316 /* LineMarkViewController.m */; };
+		2F64B5E0245903AD00B80316 /* RDPDFReflowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B542245903AC00B80316 /* RDPDFReflowViewController.m */; };
+		2F64B5E1245903AD00B80316 /* BookmarkTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B543245903AC00B80316 /* BookmarkTableViewController.h */; };
+		2F64B5E2245903AD00B80316 /* BookMarkViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B545245903AC00B80316 /* BookMarkViewController.h */; };
+		2F64B5E3245903AD00B80316 /* TextAnnotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B547245903AC00B80316 /* TextAnnotViewController.m */; };
+		2F64B5E5245903AD00B80316 /* PDFOffScreenView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B54E245903AC00B80316 /* PDFOffScreenView.h */; };
+		2F64B5E6245903AD00B80316 /* OvalColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B54F245903AC00B80316 /* OvalColorViewController.m */; };
+		2F64B5E8245903AD00B80316 /* RenderSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B551245903AC00B80316 /* RenderSettingViewController.m */; };
+		2F64B5E9245903AD00B80316 /* UINavigationController+autoRotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B553245903AC00B80316 /* UINavigationController+autoRotate.h */; };
+		2F64B5EA245903AD00B80316 /* StrikeoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B555245903AC00B80316 /* StrikeoutViewController.m */; };
+		2F64B5EB245903AD00B80316 /* PDFObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B557245903AC00B80316 /* PDFObjc.m */; };
+		2F64B5EC245903AD00B80316 /* PDFIOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B558245903AC00B80316 /* PDFIOS.h */; };
+		2F64B5EE245903AD00B80316 /* PDFObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B55A245903AC00B80316 /* PDFObjc.h */; };
+		2F64B5EF245903AD00B80316 /* PDFReflowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B55B245903AC00B80316 /* PDFReflowView.h */; };
+		2F64B5F0245903AD00B80316 /* RectColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B55C245903AC00B80316 /* RectColorViewController.m */; };
+		2F64B5F1245903AD00B80316 /* PDFHttpStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B55D245903AD00B80316 /* PDFHttpStream.m */; };
+		2F64B5F2245903AD00B80316 /* ViewModeTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B55F245903AD00B80316 /* ViewModeTableViewController.h */; };
+		2F64B5F3245903AD00B80316 /* OUTLINE_ITEM.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B560245903AD00B80316 /* OUTLINE_ITEM.h */; };
+		2F64B5F4245903AD00B80316 /* RDMoreTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B561245903AD00B80316 /* RDMoreTableViewController.h */; };
+		2F64B5F5245903AD00B80316 /* RDToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B563245903AD00B80316 /* RDToolBar.m */; };
+		2F64B5F6245903AD00B80316 /* OutLineViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B564245903AD00B80316 /* OutLineViewController.h */; };
+		2F64B5F7245903AE00B80316 /* RDUPassWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B565245903AD00B80316 /* RDUPassWord.m */; };
+		2F64B5F8245903AE00B80316 /* InkColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B566245903AD00B80316 /* InkColorViewController.m */; };
+		2F64B5F9245903AE00B80316 /* DrawModeTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B569245903AD00B80316 /* DrawModeTableViewController.h */; };
+		2F64B5FA245903AE00B80316 /* DrawModeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B56A245903AD00B80316 /* DrawModeTableViewController.m */; };
+		2F64B5FB245903AE00B80316 /* ActionStackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B56C245903AD00B80316 /* ActionStackManager.m */; };
+		2F64B5FC245903AE00B80316 /* ActionStackManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B56D245903AD00B80316 /* ActionStackManager.h */; };
+		2F64B5FD245903AE00B80316 /* ReaderHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B56F245903AD00B80316 /* ReaderHandler.m */; };
+		2F64B5FE245903AE00B80316 /* ReaderHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B570245903AD00B80316 /* ReaderHandler.h */; };
+		2F64B5FF245903AE00B80316 /* SignatureViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B572245903AD00B80316 /* SignatureViewController.h */; };
+		2F64B600245903AE00B80316 /* UviSignatureView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B573245903AD00B80316 /* UviSignatureView.h */; };
+		2F64B601245903AE00B80316 /* SignatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B574245903AD00B80316 /* SignatureViewController.m */; };
+		2F64B602245903AE00B80316 /* UviSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B575245903AD00B80316 /* UviSignatureView.m */; };
+		2F64B603245903AE00B80316 /* RDAnnotListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B577245903AD00B80316 /* RDAnnotListViewController.h */; };
+		2F64B604245903AE00B80316 /* RDAnnotListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B578245903AD00B80316 /* RDAnnotListViewController.m */; };
+		2F64B605245903AE00B80316 /* RDUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B57B245903AD00B80316 /* RDUtils.h */; };
+		2F64B606245903AE00B80316 /* RDUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B57C245903AD00B80316 /* RDUtils.m */; };
+		2F64B607245903AE00B80316 /* RDExtendedSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B57E245903AD00B80316 /* RDExtendedSearch.m */; };
+		2F64B608245903AE00B80316 /* SearchResultTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B57F245903AD00B80316 /* SearchResultTableViewController.m */; };
+		2F64B609245903AE00B80316 /* RDExtendedSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B580245903AD00B80316 /* RDExtendedSearch.h */; };
+		2F64B60A245903AE00B80316 /* SearchResultTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B581245903AD00B80316 /* SearchResultTableViewController.h */; };
+		2F64B60B245903AE00B80316 /* RDFormManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B583245903AD00B80316 /* RDFormManager.m */; };
+		2F64B60C245903AE00B80316 /* RDFormManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B584245903AD00B80316 /* RDFormManager.h */; };
+		2F64B60D245903AE00B80316 /* LineMarkViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B585245903AD00B80316 /* LineMarkViewController.h */; };
+		2F64B624245903AE00B80316 /* MoreViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B59D245903AD00B80316 /* MoreViewController.h */; };
+		2F64B625245903AE00B80316 /* RDFileTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B59F245903AD00B80316 /* RDFileTableController.m */; };
+		2F64B626245903AE00B80316 /* RDLoPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B5A0245903AD00B80316 /* RDLoPDFViewController.m */; };
+		2F64B627245903AE00B80316 /* HighlightColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B5A1245903AD00B80316 /* HighlightColorViewController.m */; };
+		2F64B628245903AE00B80316 /* ViewModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B5A2245903AD00B80316 /* ViewModeViewController.m */; };
+		2F64B629245903AE00B80316 /* PDFViewer-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B5A3245903AD00B80316 /* PDFViewer-Prefix.pch */; };
+		2F64B62A245903AE00B80316 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B5A5245903AD00B80316 /* SettingViewController.m */; };
+		2F64B62B245903AE00B80316 /* RDSinglePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B5A8245903AD00B80316 /* RDSinglePageViewController.m */; };
+		2F64B62C245903AE00B80316 /* RDPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B5A9245903AD00B80316 /* RDPageViewController.m */; };
+		2F64B62D245903AE00B80316 /* RDSinglePageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B5AA245903AD00B80316 /* RDSinglePageViewController.h */; };
+		2F64B62E245903AE00B80316 /* RDPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B5AB245903AD00B80316 /* RDPageViewController.h */; };
+		2F64B62F245903AE00B80316 /* UnderLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B5AC245903AD00B80316 /* UnderLineViewController.m */; };
+		2F64B6602459053200B80316 /* RadaeePDFPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64B65E2459053200B80316 /* RadaeePDFPlugin.h */; };
+		2F64B6612459053200B80316 /* RadaeePDFPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B65F2459053200B80316 /* RadaeePDFPlugin.m */; };
+		2F64B664245908DA00B80316 /* cmaps in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2F64B6572459046800B80316 /* cmaps */; };
+		2F64B665245908DA00B80316 /* fdat in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2F64B6582459046800B80316 /* fdat */; };
+		2F64B6662459090500B80316 /* libRDPDFLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F64B559245903AC00B80316 /* libRDPDFLib.a */; };
+		2F64B6682459093F00B80316 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F64B6672459093F00B80316 /* Foundation.framework */; };
+		2F64B66A2459094700B80316 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F64B6692459094700B80316 /* UIKit.framework */; };
 		B3E7B58A1CC2AC0600A0062D /* Radaeepdf.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* Radaeepdf.m */; };
 /* End PBXBuildFile section */
 
@@ -17,6 +131,8 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				2F64B664245908DA00B80316 /* cmaps in CopyFiles */,
+				2F64B665245908DA00B80316 /* fdat in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -24,6 +140,209 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRadaeepdf.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRadaeepdf.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F64B3462458E6E200B80316 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		2F64B3482458E6EE00B80316 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		2F64B34A2458E72F00B80316 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libc++.tbd"; sourceTree = DEVELOPER_DIR; };
+		2F64B48A245903AC00B80316 /* OvalColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OvalColorViewController.h; sourceTree = "<group>"; };
+		2F64B48C245903AC00B80316 /* PDFOffScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFOffScreenView.m; sourceTree = "<group>"; };
+		2F64B48E245903AC00B80316 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/SpeedList.plist"; sourceTree = "<group>"; };
+		2F64B490245903AC00B80316 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/ViewModeList.plist"; sourceTree = "<group>"; };
+		2F64B492245903AC00B80316 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/RDFileTableController.strings"; sourceTree = "<group>"; };
+		2F64B494245903AC00B80316 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/InkColorList.plist"; sourceTree = "<group>"; };
+		2F64B496245903AC00B80316 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/OvalColorList.plist"; sourceTree = "<group>"; };
+		2F64B498245903AC00B80316 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/RDLoPDFViewController.strings"; sourceTree = "<group>"; };
+		2F64B49A245903AC00B80316 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/UnderlineColorList.plist"; sourceTree = "<group>"; };
+		2F64B49C245903AC00B80316 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/HightLightColorList.plist"; sourceTree = "<group>"; };
+		2F64B49E245903AC00B80316 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		2F64B4A0245903AC00B80316 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/LineMarkWidth.plist"; sourceTree = "<group>"; };
+		2F64B4A2245903AC00B80316 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/RectColorList.plist"; sourceTree = "<group>"; };
+		2F64B4A4245903AC00B80316 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/MoreViewPlist.plist"; sourceTree = "<group>"; };
+		2F64B4A6245903AC00B80316 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/DistanceList.plist"; sourceTree = "<group>"; };
+		2F64B4A8245903AC00B80316 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/StrikeoutColorList.plist"; sourceTree = "<group>"; };
+		2F64B4AA245903AC00B80316 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/SettingList.plist"; sourceTree = "<group>"; };
+		2F64B4AC245903AC00B80316 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/RenderList.plist"; sourceTree = "<group>"; };
+		2F64B4AE245903AC00B80316 /* BookMarkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookMarkViewController.xib; sourceTree = "<group>"; };
+		2F64B4AF245903AC00B80316 /* TextAnnotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextAnnotViewController.h; sourceTree = "<group>"; };
+		2F64B4B0245903AC00B80316 /* OutLineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OutLineViewController.xib; sourceTree = "<group>"; };
+		2F64B4B1245903AC00B80316 /* BookMarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookMarkViewController.m; sourceTree = "<group>"; };
+		2F64B4B2245903AC00B80316 /* RDPDFReflowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDPDFReflowViewController.h; sourceTree = "<group>"; };
+		2F64B4B3245903AC00B80316 /* BookmarkTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarkTableViewController.m; sourceTree = "<group>"; };
+		2F64B4B4245903AC00B80316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/SpeedList.plist; sourceTree = "<group>"; };
+		2F64B4B5245903AC00B80316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/ViewModeList.plist; sourceTree = "<group>"; };
+		2F64B4B6245903AC00B80316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/RDFileTableController.strings; sourceTree = "<group>"; };
+		2F64B4B7245903AC00B80316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/InkColorList.plist; sourceTree = "<group>"; };
+		2F64B4B8245903AC00B80316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/OvalColorList.plist; sourceTree = "<group>"; };
+		2F64B4B9245903AC00B80316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/RDLoPDFViewController.strings; sourceTree = "<group>"; };
+		2F64B4BA245903AC00B80316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/UnderlineColorList.plist; sourceTree = "<group>"; };
+		2F64B4BC245903AC00B80316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = "en.lproj/PDFViewer-Info.plist"; sourceTree = "<group>"; };
+		2F64B4BD245903AC00B80316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/HightLightColorList.plist; sourceTree = "<group>"; };
+		2F64B4BE245903AC00B80316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2F64B4C0245903AC00B80316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2F64B4C1245903AC00B80316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/LineMarkWidth.plist; sourceTree = "<group>"; };
+		2F64B4C2245903AC00B80316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/RectColorList.plist; sourceTree = "<group>"; };
+		2F64B4C3245903AC00B80316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/MoreViewPlist.plist; sourceTree = "<group>"; };
+		2F64B4C4245903AC00B80316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/DistanceList.plist; sourceTree = "<group>"; };
+		2F64B4C5245903AC00B80316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/StrikeoutColorList.plist; sourceTree = "<group>"; };
+		2F64B4C6245903AC00B80316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/SettingList.plist; sourceTree = "<group>"; };
+		2F64B4C7245903AC00B80316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/RenderList.plist; sourceTree = "<group>"; };
+		2F64B4C8245903AC00B80316 /* MoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreViewController.xib; sourceTree = "<group>"; };
+		2F64B4C9245903AC00B80316 /* RectColorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RectColorViewController.xib; sourceTree = "<group>"; };
+		2F64B4CA245903AC00B80316 /* LineMarkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LineMarkViewController.xib; sourceTree = "<group>"; };
+		2F64B4CB245903AC00B80316 /* PDFHttpStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFHttpStream.h; sourceTree = "<group>"; };
+		2F64B4CC245903AC00B80316 /* PDFReflowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFReflowView.m; sourceTree = "<group>"; };
+		2F64B4CD245903AC00B80316 /* RectColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectColorViewController.h; sourceTree = "<group>"; };
+		2F64B4CE245903AC00B80316 /* InkColorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InkColorViewController.xib; sourceTree = "<group>"; };
+		2F64B4D0245903AC00B80316 /* RDVFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVFinder.h; sourceTree = "<group>"; };
+		2F64B4D1245903AC00B80316 /* RDVThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVThread.m; sourceTree = "<group>"; };
+		2F64B4D2245903AC00B80316 /* PDFLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFLayoutView.h; sourceTree = "<group>"; };
+		2F64B4D3245903AC00B80316 /* RDVLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVLayout.m; sourceTree = "<group>"; };
+		2F64B4D4245903AC00B80316 /* RDVPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVPage.h; sourceTree = "<group>"; };
+		2F64B4D5245903AC00B80316 /* RDVSel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVSel.h; sourceTree = "<group>"; };
+		2F64B4D6245903AC00B80316 /* RDVGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVGlobal.h; sourceTree = "<group>"; };
+		2F64B4D7245903AC00B80316 /* RDVCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVCanvas.m; sourceTree = "<group>"; };
+		2F64B4D8245903AC00B80316 /* PDFGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFGridView.m; sourceTree = "<group>"; };
+		2F64B4D9245903AC00B80316 /* RDVCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVCache.m; sourceTree = "<group>"; };
+		2F64B4DA245903AC00B80316 /* PDFThumbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFThumbView.h; sourceTree = "<group>"; };
+		2F64B4DB245903AC00B80316 /* RDVLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVLayout.h; sourceTree = "<group>"; };
+		2F64B4DC245903AC00B80316 /* RDVThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVThread.h; sourceTree = "<group>"; };
+		2F64B4DD245903AC00B80316 /* PDFLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFLayoutView.m; sourceTree = "<group>"; };
+		2F64B4DE245903AC00B80316 /* RDVFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVFinder.m; sourceTree = "<group>"; };
+		2F64B4DF245903AC00B80316 /* RDVSel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVSel.m; sourceTree = "<group>"; };
+		2F64B4E0245903AC00B80316 /* RDVPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVPage.m; sourceTree = "<group>"; };
+		2F64B4E1245903AC00B80316 /* PDFGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFGridView.h; sourceTree = "<group>"; };
+		2F64B4E2245903AC00B80316 /* RDVCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVCanvas.h; sourceTree = "<group>"; };
+		2F64B4E3245903AC00B80316 /* RDVGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVGlobal.m; sourceTree = "<group>"; };
+		2F64B4E4245903AC00B80316 /* PDFThumbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFThumbView.m; sourceTree = "<group>"; };
+		2F64B4E5245903AC00B80316 /* RDVCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVCache.h; sourceTree = "<group>"; };
+		2F64B4E6245903AC00B80316 /* ViewModeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewModeViewController.xib; sourceTree = "<group>"; };
+		2F64B4E7245903AC00B80316 /* StrikeoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrikeoutViewController.h; sourceTree = "<group>"; };
+		2F64B4E8245903AC00B80316 /* UINavigationController+autoRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+autoRotate.m"; sourceTree = "<group>"; };
+		2F64B4E9245903AC00B80316 /* RenderSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderSettingViewController.h; sourceTree = "<group>"; };
+		2F64B4EA245903AC00B80316 /* OvalColorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OvalColorViewController.xib; sourceTree = "<group>"; };
+		2F64B4EB245903AC00B80316 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = it; path = it.lproj/SpeedList.plist; sourceTree = "<group>"; };
+		2F64B4EC245903AC00B80316 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = it; path = it.lproj/ViewModeList.plist; sourceTree = "<group>"; };
+		2F64B4ED245903AC00B80316 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/RDFileTableController.strings; sourceTree = "<group>"; };
+		2F64B4EE245903AC00B80316 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = it; path = it.lproj/InkColorList.plist; sourceTree = "<group>"; };
+		2F64B4EF245903AC00B80316 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = it; path = it.lproj/OvalColorList.plist; sourceTree = "<group>"; };
+		2F64B4F0245903AC00B80316 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/RDLoPDFViewController.strings; sourceTree = "<group>"; };
+		2F64B4F1245903AC00B80316 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = it; path = it.lproj/UnderlineColorList.plist; sourceTree = "<group>"; };
+		2F64B4F2245903AC00B80316 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = it; path = it.lproj/HightLightColorList.plist; sourceTree = "<group>"; };
+		2F64B4F3245903AC00B80316 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2F64B4F4245903AC00B80316 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = it; path = it.lproj/LineMarkWidth.plist; sourceTree = "<group>"; };
+		2F64B4F5245903AC00B80316 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = it; path = it.lproj/RectColorList.plist; sourceTree = "<group>"; };
+		2F64B4F6245903AC00B80316 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = it; path = it.lproj/MoreViewPlist.plist; sourceTree = "<group>"; };
+		2F64B4F7245903AC00B80316 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = it; path = it.lproj/DistanceList.plist; sourceTree = "<group>"; };
+		2F64B4F8245903AC00B80316 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = it; path = it.lproj/StrikeoutColorList.plist; sourceTree = "<group>"; };
+		2F64B4F9245903AC00B80316 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = it; path = it.lproj/SettingList.plist; sourceTree = "<group>"; };
+		2F64B4FA245903AC00B80316 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = it; path = it.lproj/RenderList.plist; sourceTree = "<group>"; };
+		2F64B4FB245903AC00B80316 /* InkColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InkColorViewController.h; sourceTree = "<group>"; };
+		2F64B4FC245903AC00B80316 /* RDUPassWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDUPassWord.h; sourceTree = "<group>"; };
+		2F64B4FD245903AC00B80316 /* RDToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDToolBar.h; sourceTree = "<group>"; };
+		2F64B4FE245903AC00B80316 /* OutLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutLineViewController.m; sourceTree = "<group>"; };
+		2F64B4FF245903AC00B80316 /* RDMoreTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDMoreTableViewController.m; sourceTree = "<group>"; };
+		2F64B500245903AC00B80316 /* StrikeoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StrikeoutViewController.xib; sourceTree = "<group>"; };
+		2F64B501245903AC00B80316 /* OUTLINE_ITEM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OUTLINE_ITEM.m; sourceTree = "<group>"; };
+		2F64B502245903AC00B80316 /* ViewModeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewModeTableViewController.m; sourceTree = "<group>"; };
+		2F64B503245903AC00B80316 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		2F64B504245903AC00B80316 /* UnderLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnderLineViewController.h; sourceTree = "<group>"; };
+		2F64B505245903AC00B80316 /* RenderSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RenderSettingViewController.xib; sourceTree = "<group>"; };
+		2F64B506245903AC00B80316 /* ViewModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewModeViewController.h; sourceTree = "<group>"; };
+		2F64B507245903AC00B80316 /* HighlightColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighlightColorViewController.h; sourceTree = "<group>"; };
+		2F64B508245903AC00B80316 /* RDLoPDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDLoPDFViewController.h; sourceTree = "<group>"; };
+		2F64B509245903AC00B80316 /* RDFileTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDFileTableController.h; sourceTree = "<group>"; };
+		2F64B50A245903AC00B80316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/SpeedList.plist; sourceTree = "<group>"; };
+		2F64B50B245903AC00B80316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/ViewModeList.plist; sourceTree = "<group>"; };
+		2F64B50C245903AC00B80316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/InkColorList.plist; sourceTree = "<group>"; };
+		2F64B50E245903AC00B80316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/RDLoPDFViewController.xib; sourceTree = "<group>"; };
+		2F64B50F245903AC00B80316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/OvalColorList.plist; sourceTree = "<group>"; };
+		2F64B510245903AC00B80316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/UnderlineColorList.plist; sourceTree = "<group>"; };
+		2F64B511245903AC00B80316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = "Base.lproj/PDFViewer-Info.plist"; sourceTree = "<group>"; };
+		2F64B512245903AC00B80316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/HightLightColorList.plist; sourceTree = "<group>"; };
+		2F64B513245903AC00B80316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/LineMarkWidth.plist; sourceTree = "<group>"; };
+		2F64B514245903AC00B80316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/RectColorList.plist; sourceTree = "<group>"; };
+		2F64B515245903AC00B80316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/MoreViewPlist.plist; sourceTree = "<group>"; };
+		2F64B516245903AC00B80316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/DistanceList.plist; sourceTree = "<group>"; };
+		2F64B518245903AC00B80316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/RDFileTableController.xib; sourceTree = "<group>"; };
+		2F64B519245903AC00B80316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/StrikeoutColorList.plist; sourceTree = "<group>"; };
+		2F64B51A245903AC00B80316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/SettingList.plist; sourceTree = "<group>"; };
+		2F64B51B245903AC00B80316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/RenderList.plist; sourceTree = "<group>"; };
+		2F64B51C245903AC00B80316 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		2F64B51D245903AC00B80316 /* PDFViewer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PDFViewer-Info.plist"; sourceTree = "<group>"; };
+		2F64B51E245903AC00B80316 /* LineMarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineMarkViewController.m; sourceTree = "<group>"; };
+		2F64B51F245903AC00B80316 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		2F64B542245903AC00B80316 /* RDPDFReflowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDPDFReflowViewController.m; sourceTree = "<group>"; };
+		2F64B543245903AC00B80316 /* BookmarkTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarkTableViewController.h; sourceTree = "<group>"; };
+		2F64B544245903AC00B80316 /* RDPDFReflowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RDPDFReflowViewController.xib; sourceTree = "<group>"; };
+		2F64B545245903AC00B80316 /* BookMarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookMarkViewController.h; sourceTree = "<group>"; };
+		2F64B546245903AC00B80316 /* HighlightColorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HighlightColorViewController.xib; sourceTree = "<group>"; };
+		2F64B547245903AC00B80316 /* TextAnnotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextAnnotViewController.m; sourceTree = "<group>"; };
+		2F64B54D245903AC00B80316 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2F64B54E245903AC00B80316 /* PDFOffScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFOffScreenView.h; sourceTree = "<group>"; };
+		2F64B54F245903AC00B80316 /* OvalColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OvalColorViewController.m; sourceTree = "<group>"; };
+		2F64B551245903AC00B80316 /* RenderSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RenderSettingViewController.m; sourceTree = "<group>"; };
+		2F64B552245903AC00B80316 /* Default-568h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@3x.png"; sourceTree = "<group>"; };
+		2F64B553245903AC00B80316 /* UINavigationController+autoRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+autoRotate.h"; sourceTree = "<group>"; };
+		2F64B554245903AC00B80316 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2F64B555245903AC00B80316 /* StrikeoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrikeoutViewController.m; sourceTree = "<group>"; };
+		2F64B557245903AC00B80316 /* PDFObjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFObjc.m; sourceTree = "<group>"; };
+		2F64B558245903AC00B80316 /* PDFIOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFIOS.h; sourceTree = "<group>"; };
+		2F64B559245903AC00B80316 /* libRDPDFLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRDPDFLib.a; sourceTree = "<group>"; };
+		2F64B55A245903AC00B80316 /* PDFObjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFObjc.h; sourceTree = "<group>"; };
+		2F64B55B245903AC00B80316 /* PDFReflowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFReflowView.h; sourceTree = "<group>"; };
+		2F64B55C245903AC00B80316 /* RectColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectColorViewController.m; sourceTree = "<group>"; };
+		2F64B55D245903AD00B80316 /* PDFHttpStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFHttpStream.m; sourceTree = "<group>"; };
+		2F64B55E245903AD00B80316 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		2F64B55F245903AD00B80316 /* ViewModeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewModeTableViewController.h; sourceTree = "<group>"; };
+		2F64B560245903AD00B80316 /* OUTLINE_ITEM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OUTLINE_ITEM.h; sourceTree = "<group>"; };
+		2F64B561245903AD00B80316 /* RDMoreTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDMoreTableViewController.h; sourceTree = "<group>"; };
+		2F64B562245903AD00B80316 /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		2F64B563245903AD00B80316 /* RDToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDToolBar.m; sourceTree = "<group>"; };
+		2F64B564245903AD00B80316 /* OutLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutLineViewController.h; sourceTree = "<group>"; };
+		2F64B565245903AD00B80316 /* RDUPassWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDUPassWord.m; sourceTree = "<group>"; };
+		2F64B566245903AD00B80316 /* InkColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InkColorViewController.m; sourceTree = "<group>"; };
+		2F64B569245903AD00B80316 /* DrawModeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawModeTableViewController.h; sourceTree = "<group>"; };
+		2F64B56A245903AD00B80316 /* DrawModeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawModeTableViewController.m; sourceTree = "<group>"; };
+		2F64B56C245903AD00B80316 /* ActionStackManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionStackManager.m; sourceTree = "<group>"; };
+		2F64B56D245903AD00B80316 /* ActionStackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionStackManager.h; sourceTree = "<group>"; };
+		2F64B56F245903AD00B80316 /* ReaderHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderHandler.m; sourceTree = "<group>"; };
+		2F64B570245903AD00B80316 /* ReaderHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderHandler.h; sourceTree = "<group>"; };
+		2F64B572245903AD00B80316 /* SignatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureViewController.h; sourceTree = "<group>"; };
+		2F64B573245903AD00B80316 /* UviSignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UviSignatureView.h; sourceTree = "<group>"; };
+		2F64B574245903AD00B80316 /* SignatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureViewController.m; sourceTree = "<group>"; };
+		2F64B575245903AD00B80316 /* UviSignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UviSignatureView.m; sourceTree = "<group>"; };
+		2F64B577245903AD00B80316 /* RDAnnotListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDAnnotListViewController.h; sourceTree = "<group>"; };
+		2F64B578245903AD00B80316 /* RDAnnotListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDAnnotListViewController.m; sourceTree = "<group>"; };
+		2F64B579245903AD00B80316 /* RDAnnotListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RDAnnotListViewController.xib; sourceTree = "<group>"; };
+		2F64B57B245903AD00B80316 /* RDUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDUtils.h; sourceTree = "<group>"; };
+		2F64B57C245903AD00B80316 /* RDUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDUtils.m; sourceTree = "<group>"; };
+		2F64B57E245903AD00B80316 /* RDExtendedSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDExtendedSearch.m; sourceTree = "<group>"; };
+		2F64B57F245903AD00B80316 /* SearchResultTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultTableViewController.m; sourceTree = "<group>"; };
+		2F64B580245903AD00B80316 /* RDExtendedSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDExtendedSearch.h; sourceTree = "<group>"; };
+		2F64B581245903AD00B80316 /* SearchResultTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultTableViewController.h; sourceTree = "<group>"; };
+		2F64B583245903AD00B80316 /* RDFormManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDFormManager.m; sourceTree = "<group>"; };
+		2F64B584245903AD00B80316 /* RDFormManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDFormManager.h; sourceTree = "<group>"; };
+		2F64B585245903AD00B80316 /* LineMarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineMarkViewController.h; sourceTree = "<group>"; };
+		2F64B59D245903AD00B80316 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		2F64B59E245903AD00B80316 /* RDMoreTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RDMoreTableViewController.xib; sourceTree = "<group>"; };
+		2F64B59F245903AD00B80316 /* RDFileTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDFileTableController.m; sourceTree = "<group>"; };
+		2F64B5A0245903AD00B80316 /* RDLoPDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDLoPDFViewController.m; sourceTree = "<group>"; };
+		2F64B5A1245903AD00B80316 /* HighlightColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighlightColorViewController.m; sourceTree = "<group>"; };
+		2F64B5A2245903AD00B80316 /* ViewModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewModeViewController.m; sourceTree = "<group>"; };
+		2F64B5A3245903AD00B80316 /* PDFViewer-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PDFViewer-Prefix.pch"; sourceTree = "<group>"; };
+		2F64B5A4245903AD00B80316 /* UnderLineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnderLineViewController.xib; sourceTree = "<group>"; };
+		2F64B5A5245903AD00B80316 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		2F64B5A7245903AD00B80316 /* RDPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RDPageViewController.xib; sourceTree = "<group>"; };
+		2F64B5A8245903AD00B80316 /* RDSinglePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDSinglePageViewController.m; sourceTree = "<group>"; };
+		2F64B5A9245903AD00B80316 /* RDPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDPageViewController.m; sourceTree = "<group>"; };
+		2F64B5AA245903AD00B80316 /* RDSinglePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDSinglePageViewController.h; sourceTree = "<group>"; };
+		2F64B5AB245903AD00B80316 /* RDPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDPageViewController.h; sourceTree = "<group>"; };
+		2F64B5AC245903AD00B80316 /* UnderLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnderLineViewController.m; sourceTree = "<group>"; };
+		2F64B6572459046800B80316 /* cmaps */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cmaps; sourceTree = "<group>"; };
+		2F64B6582459046800B80316 /* fdat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fdat; sourceTree = "<group>"; };
+		2F64B65E2459053200B80316 /* RadaeePDFPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadaeePDFPlugin.h; sourceTree = "<group>"; };
+		2F64B65F2459053200B80316 /* RadaeePDFPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadaeePDFPlugin.m; sourceTree = "<group>"; };
+		2F64B6672459093F00B80316 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2F64B6692459094700B80316 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B3E7B5881CC2AC0600A0062D /* Radaeepdf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Radaeepdf.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* Radaeepdf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Radaeepdf.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -33,6 +352,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F64B66A2459094700B80316 /* UIKit.framework in Frameworks */,
+				2F64B6682459093F00B80316 /* Foundation.framework in Frameworks */,
+				2F64B34B2458E72F00B80316 /* libc++.tbd in Frameworks */,
+				2F64B3492458E6EE00B80316 /* CoreGraphics.framework in Frameworks */,
+				2F64B3472458E6E200B80316 /* QuartzCore.framework in Frameworks */,
+				2F64B6662459090500B80316 /* libRDPDFLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,22 +372,372 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		2F64B3452458E6E200B80316 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F64B6692459094700B80316 /* UIKit.framework */,
+				2F64B6672459093F00B80316 /* Foundation.framework */,
+				2F64B556245903AC00B80316 /* PDFLib */,
+				2F64B34A2458E72F00B80316 /* libc++.tbd */,
+				2F64B3482458E6EE00B80316 /* CoreGraphics.framework */,
+				2F64B3462458E6E200B80316 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F64B489245903AC00B80316 /* PDFViewer */ = {
+			isa = PBXGroup;
+			children = (
+				2F64B543245903AC00B80316 /* BookmarkTableViewController.h */,
+				2F64B4B3245903AC00B80316 /* BookmarkTableViewController.m */,
+				2F64B545245903AC00B80316 /* BookMarkViewController.h */,
+				2F64B4B1245903AC00B80316 /* BookMarkViewController.m */,
+				2F64B4AE245903AC00B80316 /* BookMarkViewController.xib */,
+				2F64B6302459041E00B80316 /* Data */,
+				2F64B54D245903AC00B80316 /* Default-568h@2x.png */,
+				2F64B552245903AC00B80316 /* Default-568h@3x.png */,
+				2F64B4A5245903AC00B80316 /* DistanceList.plist */,
+				2F64B507245903AC00B80316 /* HighlightColorViewController.h */,
+				2F64B5A1245903AD00B80316 /* HighlightColorViewController.m */,
+				2F64B546245903AC00B80316 /* HighlightColorViewController.xib */,
+				2F64B49B245903AC00B80316 /* HightLightColorList.plist */,
+				2F64B554245903AC00B80316 /* Images.xcassets */,
+				2F64B4BF245903AC00B80316 /* InfoPlist.strings */,
+				2F64B51F245903AC00B80316 /* InfoPlist.strings */,
+				2F64B493245903AC00B80316 /* InkColorList.plist */,
+				2F64B4FB245903AC00B80316 /* InkColorViewController.h */,
+				2F64B566245903AD00B80316 /* InkColorViewController.m */,
+				2F64B4CE245903AC00B80316 /* InkColorViewController.xib */,
+				2F64B55E245903AD00B80316 /* Launch Screen.storyboard */,
+				2F64B585245903AD00B80316 /* LineMarkViewController.h */,
+				2F64B51E245903AC00B80316 /* LineMarkViewController.m */,
+				2F64B4CA245903AC00B80316 /* LineMarkViewController.xib */,
+				2F64B49F245903AC00B80316 /* LineMarkWidth.plist */,
+				2F64B49D245903AC00B80316 /* Localizable.strings */,
+				2F64B567245903AD00B80316 /* Modules */,
+				2F64B59D245903AD00B80316 /* MoreViewController.h */,
+				2F64B51C245903AC00B80316 /* MoreViewController.m */,
+				2F64B4C8245903AC00B80316 /* MoreViewController.xib */,
+				2F64B4A3245903AC00B80316 /* MoreViewPlist.plist */,
+				2F64B560245903AD00B80316 /* OUTLINE_ITEM.h */,
+				2F64B501245903AC00B80316 /* OUTLINE_ITEM.m */,
+				2F64B564245903AD00B80316 /* OutLineViewController.h */,
+				2F64B4FE245903AC00B80316 /* OutLineViewController.m */,
+				2F64B4B0245903AC00B80316 /* OutLineViewController.xib */,
+				2F64B495245903AC00B80316 /* OvalColorList.plist */,
+				2F64B48A245903AC00B80316 /* OvalColorViewController.h */,
+				2F64B54F245903AC00B80316 /* OvalColorViewController.m */,
+				2F64B4EA245903AC00B80316 /* OvalColorViewController.xib */,
+				2F64B4CB245903AC00B80316 /* PDFHttpStream.h */,
+				2F64B55D245903AD00B80316 /* PDFHttpStream.m */,
+				2F64B54E245903AC00B80316 /* PDFOffScreenView.h */,
+				2F64B48C245903AC00B80316 /* PDFOffScreenView.m */,
+				2F64B55B245903AC00B80316 /* PDFReflowView.h */,
+				2F64B4CC245903AC00B80316 /* PDFReflowView.m */,
+				2F64B4CF245903AC00B80316 /* PDFView */,
+				2F64B4BB245903AC00B80316 /* PDFViewer-Info.plist */,
+				2F64B51D245903AC00B80316 /* PDFViewer-Info.plist */,
+				2F64B5A3245903AD00B80316 /* PDFViewer-Prefix.pch */,
+				2F64B6592459050100B80316 /* Plugin */,
+				2F64B509245903AC00B80316 /* RDFileTableController.h */,
+				2F64B59F245903AD00B80316 /* RDFileTableController.m */,
+				2F64B491245903AC00B80316 /* RDFileTableController.strings */,
+				2F64B517245903AC00B80316 /* RDFileTableController.xib */,
+				2F64B508245903AC00B80316 /* RDLoPDFViewController.h */,
+				2F64B5A0245903AD00B80316 /* RDLoPDFViewController.m */,
+				2F64B497245903AC00B80316 /* RDLoPDFViewController.strings */,
+				2F64B50D245903AC00B80316 /* RDLoPDFViewController.xib */,
+				2F64B561245903AD00B80316 /* RDMoreTableViewController.h */,
+				2F64B4FF245903AC00B80316 /* RDMoreTableViewController.m */,
+				2F64B59E245903AD00B80316 /* RDMoreTableViewController.xib */,
+				2F64B5A6245903AD00B80316 /* RDPageView */,
+				2F64B4B2245903AC00B80316 /* RDPDFReflowViewController.h */,
+				2F64B542245903AC00B80316 /* RDPDFReflowViewController.m */,
+				2F64B544245903AC00B80316 /* RDPDFReflowViewController.xib */,
+				2F64B4FD245903AC00B80316 /* RDToolBar.h */,
+				2F64B563245903AD00B80316 /* RDToolBar.m */,
+				2F64B4FC245903AC00B80316 /* RDUPassWord.h */,
+				2F64B565245903AD00B80316 /* RDUPassWord.m */,
+				2F64B4A1245903AC00B80316 /* RectColorList.plist */,
+				2F64B4CD245903AC00B80316 /* RectColorViewController.h */,
+				2F64B55C245903AC00B80316 /* RectColorViewController.m */,
+				2F64B4C9245903AC00B80316 /* RectColorViewController.xib */,
+				2F64B4AB245903AC00B80316 /* RenderList.plist */,
+				2F64B4E9245903AC00B80316 /* RenderSettingViewController.h */,
+				2F64B551245903AC00B80316 /* RenderSettingViewController.m */,
+				2F64B505245903AC00B80316 /* RenderSettingViewController.xib */,
+				2F64B4A9245903AC00B80316 /* SettingList.plist */,
+				2F64B503245903AC00B80316 /* SettingViewController.h */,
+				2F64B5A5245903AD00B80316 /* SettingViewController.m */,
+				2F64B562245903AD00B80316 /* SettingViewController.xib */,
+				2F64B48D245903AC00B80316 /* SpeedList.plist */,
+				2F64B4A7245903AC00B80316 /* StrikeoutColorList.plist */,
+				2F64B4E7245903AC00B80316 /* StrikeoutViewController.h */,
+				2F64B555245903AC00B80316 /* StrikeoutViewController.m */,
+				2F64B500245903AC00B80316 /* StrikeoutViewController.xib */,
+				2F64B4AF245903AC00B80316 /* TextAnnotViewController.h */,
+				2F64B547245903AC00B80316 /* TextAnnotViewController.m */,
+				2F64B553245903AC00B80316 /* UINavigationController+autoRotate.h */,
+				2F64B4E8245903AC00B80316 /* UINavigationController+autoRotate.m */,
+				2F64B499245903AC00B80316 /* UnderlineColorList.plist */,
+				2F64B504245903AC00B80316 /* UnderLineViewController.h */,
+				2F64B5AC245903AD00B80316 /* UnderLineViewController.m */,
+				2F64B5A4245903AD00B80316 /* UnderLineViewController.xib */,
+				2F64B48F245903AC00B80316 /* ViewModeList.plist */,
+				2F64B55F245903AD00B80316 /* ViewModeTableViewController.h */,
+				2F64B502245903AC00B80316 /* ViewModeTableViewController.m */,
+				2F64B506245903AC00B80316 /* ViewModeViewController.h */,
+				2F64B5A2245903AD00B80316 /* ViewModeViewController.m */,
+				2F64B4E6245903AC00B80316 /* ViewModeViewController.xib */,
+			);
+			path = PDFViewer;
+			sourceTree = "<group>";
+		};
+		2F64B4CF245903AC00B80316 /* PDFView */ = {
+			isa = PBXGroup;
+			children = (
+				2F64B4D0245903AC00B80316 /* RDVFinder.h */,
+				2F64B4D1245903AC00B80316 /* RDVThread.m */,
+				2F64B4D2245903AC00B80316 /* PDFLayoutView.h */,
+				2F64B4D3245903AC00B80316 /* RDVLayout.m */,
+				2F64B4D4245903AC00B80316 /* RDVPage.h */,
+				2F64B4D5245903AC00B80316 /* RDVSel.h */,
+				2F64B4D6245903AC00B80316 /* RDVGlobal.h */,
+				2F64B4D7245903AC00B80316 /* RDVCanvas.m */,
+				2F64B4D8245903AC00B80316 /* PDFGridView.m */,
+				2F64B4D9245903AC00B80316 /* RDVCache.m */,
+				2F64B4DA245903AC00B80316 /* PDFThumbView.h */,
+				2F64B4DB245903AC00B80316 /* RDVLayout.h */,
+				2F64B4DC245903AC00B80316 /* RDVThread.h */,
+				2F64B4DD245903AC00B80316 /* PDFLayoutView.m */,
+				2F64B4DE245903AC00B80316 /* RDVFinder.m */,
+				2F64B4DF245903AC00B80316 /* RDVSel.m */,
+				2F64B4E0245903AC00B80316 /* RDVPage.m */,
+				2F64B4E1245903AC00B80316 /* PDFGridView.h */,
+				2F64B4E2245903AC00B80316 /* RDVCanvas.h */,
+				2F64B4E3245903AC00B80316 /* RDVGlobal.m */,
+				2F64B4E4245903AC00B80316 /* PDFThumbView.m */,
+				2F64B4E5245903AC00B80316 /* RDVCache.h */,
+			);
+			path = PDFView;
+			sourceTree = "<group>";
+		};
+		2F64B556245903AC00B80316 /* PDFLib */ = {
+			isa = PBXGroup;
+			children = (
+				2F64B557245903AC00B80316 /* PDFObjc.m */,
+				2F64B558245903AC00B80316 /* PDFIOS.h */,
+				2F64B559245903AC00B80316 /* libRDPDFLib.a */,
+				2F64B55A245903AC00B80316 /* PDFObjc.h */,
+			);
+			path = PDFLib;
+			sourceTree = "<group>";
+		};
+		2F64B567245903AD00B80316 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2F64B568245903AD00B80316 /* DrawMode */,
+				2F64B56B245903AD00B80316 /* ActionStack */,
+				2F64B56E245903AD00B80316 /* ReaderHandler */,
+				2F64B571245903AD00B80316 /* Signature */,
+				2F64B576245903AD00B80316 /* ListBox */,
+				2F64B57A245903AD00B80316 /* Utils */,
+				2F64B57D245903AD00B80316 /* SearchList */,
+				2F64B582245903AD00B80316 /* FormManager */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		2F64B568245903AD00B80316 /* DrawMode */ = {
+			isa = PBXGroup;
+			children = (
+				2F64B569245903AD00B80316 /* DrawModeTableViewController.h */,
+				2F64B56A245903AD00B80316 /* DrawModeTableViewController.m */,
+			);
+			path = DrawMode;
+			sourceTree = "<group>";
+		};
+		2F64B56B245903AD00B80316 /* ActionStack */ = {
+			isa = PBXGroup;
+			children = (
+				2F64B56C245903AD00B80316 /* ActionStackManager.m */,
+				2F64B56D245903AD00B80316 /* ActionStackManager.h */,
+			);
+			path = ActionStack;
+			sourceTree = "<group>";
+		};
+		2F64B56E245903AD00B80316 /* ReaderHandler */ = {
+			isa = PBXGroup;
+			children = (
+				2F64B56F245903AD00B80316 /* ReaderHandler.m */,
+				2F64B570245903AD00B80316 /* ReaderHandler.h */,
+			);
+			path = ReaderHandler;
+			sourceTree = "<group>";
+		};
+		2F64B571245903AD00B80316 /* Signature */ = {
+			isa = PBXGroup;
+			children = (
+				2F64B572245903AD00B80316 /* SignatureViewController.h */,
+				2F64B573245903AD00B80316 /* UviSignatureView.h */,
+				2F64B574245903AD00B80316 /* SignatureViewController.m */,
+				2F64B575245903AD00B80316 /* UviSignatureView.m */,
+			);
+			path = Signature;
+			sourceTree = "<group>";
+		};
+		2F64B576245903AD00B80316 /* ListBox */ = {
+			isa = PBXGroup;
+			children = (
+				2F64B577245903AD00B80316 /* RDAnnotListViewController.h */,
+				2F64B578245903AD00B80316 /* RDAnnotListViewController.m */,
+				2F64B579245903AD00B80316 /* RDAnnotListViewController.xib */,
+			);
+			path = ListBox;
+			sourceTree = "<group>";
+		};
+		2F64B57A245903AD00B80316 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2F64B57B245903AD00B80316 /* RDUtils.h */,
+				2F64B57C245903AD00B80316 /* RDUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2F64B57D245903AD00B80316 /* SearchList */ = {
+			isa = PBXGroup;
+			children = (
+				2F64B57E245903AD00B80316 /* RDExtendedSearch.m */,
+				2F64B57F245903AD00B80316 /* SearchResultTableViewController.m */,
+				2F64B580245903AD00B80316 /* RDExtendedSearch.h */,
+				2F64B581245903AD00B80316 /* SearchResultTableViewController.h */,
+			);
+			path = SearchList;
+			sourceTree = "<group>";
+		};
+		2F64B582245903AD00B80316 /* FormManager */ = {
+			isa = PBXGroup;
+			children = (
+				2F64B583245903AD00B80316 /* RDFormManager.m */,
+				2F64B584245903AD00B80316 /* RDFormManager.h */,
+			);
+			path = FormManager;
+			sourceTree = "<group>";
+		};
+		2F64B5A6245903AD00B80316 /* RDPageView */ = {
+			isa = PBXGroup;
+			children = (
+				2F64B5A7245903AD00B80316 /* RDPageViewController.xib */,
+				2F64B5A8245903AD00B80316 /* RDSinglePageViewController.m */,
+				2F64B5A9245903AD00B80316 /* RDPageViewController.m */,
+				2F64B5AA245903AD00B80316 /* RDSinglePageViewController.h */,
+				2F64B5AB245903AD00B80316 /* RDPageViewController.h */,
+			);
+			path = RDPageView;
+			sourceTree = "<group>";
+		};
+		2F64B6302459041E00B80316 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2F64B6572459046800B80316 /* cmaps */,
+				2F64B6582459046800B80316 /* fdat */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2F64B6592459050100B80316 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				2F64B65E2459053200B80316 /* RadaeePDFPlugin.h */,
+				2F64B65F2459053200B80316 /* RadaeePDFPlugin.m */,
+			);
+			path = Plugin;
+			sourceTree = "<group>";
+		};
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
 				B3E7B5881CC2AC0600A0062D /* Radaeepdf.h */,
 				B3E7B5891CC2AC0600A0062D /* Radaeepdf.m */,
+				2F64B3452458E6E200B80316 /* Frameworks */,
+				2F64B489245903AC00B80316 /* PDFViewer */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		2F64B3AE2458F23F00B80316 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F64B5BE245903AD00B80316 /* RDVGlobal.h in Headers */,
+				2F64B5F6245903AD00B80316 /* OutLineViewController.h in Headers */,
+				2F64B5CD245903AD00B80316 /* RDVCache.h in Headers */,
+				2F64B5BC245903AD00B80316 /* RDVPage.h in Headers */,
+				2F64B5BA245903AD00B80316 /* PDFLayoutView.h in Headers */,
+				2F64B5DC245903AD00B80316 /* RDLoPDFViewController.h in Headers */,
+				2F64B5EE245903AD00B80316 /* PDFObjc.h in Headers */,
+				2F64B5F2245903AD00B80316 /* ViewModeTableViewController.h in Headers */,
+				2F64B5D3245903AD00B80316 /* RDToolBar.h in Headers */,
+				2F64B60A245903AE00B80316 /* SearchResultTableViewController.h in Headers */,
+				2F64B5C2245903AD00B80316 /* PDFThumbView.h in Headers */,
+				2F64B5F4245903AD00B80316 /* RDMoreTableViewController.h in Headers */,
+				2F64B5DA245903AD00B80316 /* ViewModeViewController.h in Headers */,
+				2F64B5D0245903AD00B80316 /* RenderSettingViewController.h in Headers */,
+				2F64B60C245903AE00B80316 /* RDFormManager.h in Headers */,
+				2F64B5EC245903AD00B80316 /* PDFIOS.h in Headers */,
+				2F64B5FE245903AE00B80316 /* ReaderHandler.h in Headers */,
+				2F64B5C3245903AD00B80316 /* RDVLayout.h in Headers */,
+				2F64B5AD245903AD00B80316 /* OvalColorViewController.h in Headers */,
+				2F64B603245903AE00B80316 /* RDAnnotListViewController.h in Headers */,
+				2F64B600245903AE00B80316 /* UviSignatureView.h in Headers */,
+				2F64B5DB245903AD00B80316 /* HighlightColorViewController.h in Headers */,
+				2F64B5E2245903AD00B80316 /* BookMarkViewController.h in Headers */,
+				2F64B5D8245903AD00B80316 /* SettingViewController.h in Headers */,
+				2F64B605245903AE00B80316 /* RDUtils.h in Headers */,
+				2F64B5E9245903AD00B80316 /* UINavigationController+autoRotate.h in Headers */,
+				2F64B62E245903AE00B80316 /* RDPageViewController.h in Headers */,
+				2F64B62D245903AE00B80316 /* RDSinglePageViewController.h in Headers */,
+				2F64B5E1245903AD00B80316 /* BookmarkTableViewController.h in Headers */,
+				2F64B5F3245903AD00B80316 /* OUTLINE_ITEM.h in Headers */,
+				2F64B5B1245903AD00B80316 /* TextAnnotViewController.h in Headers */,
+				2F64B5B3245903AD00B80316 /* RDPDFReflowViewController.h in Headers */,
+				2F64B609245903AE00B80316 /* RDExtendedSearch.h in Headers */,
+				2F64B5FF245903AE00B80316 /* SignatureViewController.h in Headers */,
+				2F64B5FC245903AE00B80316 /* ActionStackManager.h in Headers */,
+				2F64B5C4245903AD00B80316 /* RDVThread.h in Headers */,
+				2F64B5B8245903AD00B80316 /* RDVFinder.h in Headers */,
+				2F64B6602459053200B80316 /* RadaeePDFPlugin.h in Headers */,
+				2F64B5CA245903AD00B80316 /* RDVCanvas.h in Headers */,
+				2F64B5E5245903AD00B80316 /* PDFOffScreenView.h in Headers */,
+				2F64B5F9245903AE00B80316 /* DrawModeTableViewController.h in Headers */,
+				2F64B5D9245903AD00B80316 /* UnderLineViewController.h in Headers */,
+				2F64B629245903AE00B80316 /* PDFViewer-Prefix.pch in Headers */,
+				2F64B5D2245903AD00B80316 /* RDUPassWord.h in Headers */,
+				2F64B5EF245903AD00B80316 /* PDFReflowView.h in Headers */,
+				2F64B5D1245903AD00B80316 /* InkColorViewController.h in Headers */,
+				2F64B5DD245903AD00B80316 /* RDFileTableController.h in Headers */,
+				2F64B5C9245903AD00B80316 /* PDFGridView.h in Headers */,
+				2F64B5BD245903AD00B80316 /* RDVSel.h in Headers */,
+				2F64B5B7245903AD00B80316 /* RectColorViewController.h in Headers */,
+				2F64B5B5245903AD00B80316 /* PDFHttpStream.h in Headers */,
+				2F64B624245903AE00B80316 /* MoreViewController.h in Headers */,
+				2F64B60D245903AE00B80316 /* LineMarkViewController.h in Headers */,
+				2F64B5CE245903AD00B80316 /* StrikeoutViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		58B511DA1A9E6C8500147676 /* Radaeepdf */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "Radaeepdf" */;
 			buildPhases = (
+				2F64B3AE2458F23F00B80316 /* Headers */,
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
@@ -95,7 +770,11 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
+				"zh-Hans",
+				it,
+				Base,
 			);
 			mainGroup = 58B511D21A9E6C8500147676;
 			productRefGroup = 58B511D21A9E6C8500147676;
@@ -112,11 +791,272 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F64B62C245903AE00B80316 /* RDPageViewController.m in Sources */,
+				2F64B5BF245903AD00B80316 /* RDVCanvas.m in Sources */,
+				2F64B5DE245903AD00B80316 /* MoreViewController.m in Sources */,
+				2F64B5D4245903AD00B80316 /* OutLineViewController.m in Sources */,
+				2F64B5FD245903AE00B80316 /* ReaderHandler.m in Sources */,
+				2F64B5F8245903AE00B80316 /* InkColorViewController.m in Sources */,
+				2F64B60B245903AE00B80316 /* RDFormManager.m in Sources */,
+				2F64B5EA245903AD00B80316 /* StrikeoutViewController.m in Sources */,
+				2F64B5C7245903AD00B80316 /* RDVSel.m in Sources */,
+				2F64B5E6245903AD00B80316 /* OvalColorViewController.m in Sources */,
+				2F64B5E0245903AD00B80316 /* RDPDFReflowViewController.m in Sources */,
+				2F64B608245903AE00B80316 /* SearchResultTableViewController.m in Sources */,
+				2F64B5E8245903AD00B80316 /* RenderSettingViewController.m in Sources */,
+				2F64B607245903AE00B80316 /* RDExtendedSearch.m in Sources */,
+				2F64B5B2245903AD00B80316 /* BookMarkViewController.m in Sources */,
+				2F64B5D7245903AD00B80316 /* ViewModeTableViewController.m in Sources */,
+				2F64B5FB245903AE00B80316 /* ActionStackManager.m in Sources */,
+				2F64B627245903AE00B80316 /* HighlightColorViewController.m in Sources */,
+				2F64B5C6245903AD00B80316 /* RDVFinder.m in Sources */,
+				2F64B5F1245903AD00B80316 /* PDFHttpStream.m in Sources */,
+				2F64B625245903AE00B80316 /* RDFileTableController.m in Sources */,
+				2F64B5DF245903AD00B80316 /* LineMarkViewController.m in Sources */,
+				2F64B5B9245903AD00B80316 /* RDVThread.m in Sources */,
+				2F64B5BB245903AD00B80316 /* RDVLayout.m in Sources */,
+				2F64B628245903AE00B80316 /* ViewModeViewController.m in Sources */,
+				2F64B601245903AE00B80316 /* SignatureViewController.m in Sources */,
+				2F64B5B6245903AD00B80316 /* PDFReflowView.m in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* Radaeepdf.m in Sources */,
+				2F64B5D5245903AD00B80316 /* RDMoreTableViewController.m in Sources */,
+				2F64B604245903AE00B80316 /* RDAnnotListViewController.m in Sources */,
+				2F64B602245903AE00B80316 /* UviSignatureView.m in Sources */,
+				2F64B5C0245903AD00B80316 /* PDFGridView.m in Sources */,
+				2F64B606245903AE00B80316 /* RDUtils.m in Sources */,
+				2F64B5E3245903AD00B80316 /* TextAnnotViewController.m in Sources */,
+				2F64B5F0245903AD00B80316 /* RectColorViewController.m in Sources */,
+				2F64B62A245903AE00B80316 /* SettingViewController.m in Sources */,
+				2F64B6612459053200B80316 /* RadaeePDFPlugin.m in Sources */,
+				2F64B5B4245903AD00B80316 /* BookmarkTableViewController.m in Sources */,
+				2F64B5CF245903AD00B80316 /* UINavigationController+autoRotate.m in Sources */,
+				2F64B5CB245903AD00B80316 /* RDVGlobal.m in Sources */,
+				2F64B5D6245903AD00B80316 /* OUTLINE_ITEM.m in Sources */,
+				2F64B5CC245903AD00B80316 /* PDFThumbView.m in Sources */,
+				2F64B5F5245903AD00B80316 /* RDToolBar.m in Sources */,
+				2F64B5C5245903AD00B80316 /* PDFLayoutView.m in Sources */,
+				2F64B5F7245903AE00B80316 /* RDUPassWord.m in Sources */,
+				2F64B5C1245903AD00B80316 /* RDVCache.m in Sources */,
+				2F64B5EB245903AD00B80316 /* PDFObjc.m in Sources */,
+				2F64B5FA245903AE00B80316 /* DrawModeTableViewController.m in Sources */,
+				2F64B62F245903AE00B80316 /* UnderLineViewController.m in Sources */,
+				2F64B5C8245903AD00B80316 /* RDVPage.m in Sources */,
+				2F64B626245903AE00B80316 /* RDLoPDFViewController.m in Sources */,
+				2F64B5AF245903AD00B80316 /* PDFOffScreenView.m in Sources */,
+				2F64B62B245903AE00B80316 /* RDSinglePageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2F64B48D245903AC00B80316 /* SpeedList.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F64B48E245903AC00B80316 /* zh-Hans */,
+				2F64B4B4245903AC00B80316 /* en */,
+				2F64B4EB245903AC00B80316 /* it */,
+				2F64B50A245903AC00B80316 /* Base */,
+			);
+			name = SpeedList.plist;
+			sourceTree = "<group>";
+		};
+		2F64B48F245903AC00B80316 /* ViewModeList.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F64B490245903AC00B80316 /* zh-Hans */,
+				2F64B4B5245903AC00B80316 /* en */,
+				2F64B4EC245903AC00B80316 /* it */,
+				2F64B50B245903AC00B80316 /* Base */,
+			);
+			name = ViewModeList.plist;
+			sourceTree = "<group>";
+		};
+		2F64B491245903AC00B80316 /* RDFileTableController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F64B492245903AC00B80316 /* zh-Hans */,
+				2F64B4B6245903AC00B80316 /* en */,
+				2F64B4ED245903AC00B80316 /* it */,
+			);
+			name = RDFileTableController.strings;
+			sourceTree = "<group>";
+		};
+		2F64B493245903AC00B80316 /* InkColorList.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F64B494245903AC00B80316 /* zh-Hans */,
+				2F64B4B7245903AC00B80316 /* en */,
+				2F64B4EE245903AC00B80316 /* it */,
+				2F64B50C245903AC00B80316 /* Base */,
+			);
+			name = InkColorList.plist;
+			sourceTree = "<group>";
+		};
+		2F64B495245903AC00B80316 /* OvalColorList.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F64B496245903AC00B80316 /* zh-Hans */,
+				2F64B4B8245903AC00B80316 /* en */,
+				2F64B4EF245903AC00B80316 /* it */,
+				2F64B50F245903AC00B80316 /* Base */,
+			);
+			name = OvalColorList.plist;
+			sourceTree = "<group>";
+		};
+		2F64B497245903AC00B80316 /* RDLoPDFViewController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F64B498245903AC00B80316 /* zh-Hans */,
+				2F64B4B9245903AC00B80316 /* en */,
+				2F64B4F0245903AC00B80316 /* it */,
+			);
+			name = RDLoPDFViewController.strings;
+			sourceTree = "<group>";
+		};
+		2F64B499245903AC00B80316 /* UnderlineColorList.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F64B49A245903AC00B80316 /* zh-Hans */,
+				2F64B4BA245903AC00B80316 /* en */,
+				2F64B4F1245903AC00B80316 /* it */,
+				2F64B510245903AC00B80316 /* Base */,
+			);
+			name = UnderlineColorList.plist;
+			sourceTree = "<group>";
+		};
+		2F64B49B245903AC00B80316 /* HightLightColorList.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F64B49C245903AC00B80316 /* zh-Hans */,
+				2F64B4BD245903AC00B80316 /* en */,
+				2F64B4F2245903AC00B80316 /* it */,
+				2F64B512245903AC00B80316 /* Base */,
+			);
+			name = HightLightColorList.plist;
+			sourceTree = "<group>";
+		};
+		2F64B49D245903AC00B80316 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F64B49E245903AC00B80316 /* zh-Hans */,
+				2F64B4BE245903AC00B80316 /* en */,
+				2F64B4F3245903AC00B80316 /* it */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		2F64B49F245903AC00B80316 /* LineMarkWidth.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F64B4A0245903AC00B80316 /* zh-Hans */,
+				2F64B4C1245903AC00B80316 /* en */,
+				2F64B4F4245903AC00B80316 /* it */,
+				2F64B513245903AC00B80316 /* Base */,
+			);
+			name = LineMarkWidth.plist;
+			sourceTree = "<group>";
+		};
+		2F64B4A1245903AC00B80316 /* RectColorList.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F64B4A2245903AC00B80316 /* zh-Hans */,
+				2F64B4C2245903AC00B80316 /* en */,
+				2F64B4F5245903AC00B80316 /* it */,
+				2F64B514245903AC00B80316 /* Base */,
+			);
+			name = RectColorList.plist;
+			sourceTree = "<group>";
+		};
+		2F64B4A3245903AC00B80316 /* MoreViewPlist.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F64B4A4245903AC00B80316 /* zh-Hans */,
+				2F64B4C3245903AC00B80316 /* en */,
+				2F64B4F6245903AC00B80316 /* it */,
+				2F64B515245903AC00B80316 /* Base */,
+			);
+			name = MoreViewPlist.plist;
+			sourceTree = "<group>";
+		};
+		2F64B4A5245903AC00B80316 /* DistanceList.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F64B4A6245903AC00B80316 /* zh-Hans */,
+				2F64B4C4245903AC00B80316 /* en */,
+				2F64B4F7245903AC00B80316 /* it */,
+				2F64B516245903AC00B80316 /* Base */,
+			);
+			name = DistanceList.plist;
+			sourceTree = "<group>";
+		};
+		2F64B4A7245903AC00B80316 /* StrikeoutColorList.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F64B4A8245903AC00B80316 /* zh-Hans */,
+				2F64B4C5245903AC00B80316 /* en */,
+				2F64B4F8245903AC00B80316 /* it */,
+				2F64B519245903AC00B80316 /* Base */,
+			);
+			name = StrikeoutColorList.plist;
+			sourceTree = "<group>";
+		};
+		2F64B4A9245903AC00B80316 /* SettingList.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F64B4AA245903AC00B80316 /* zh-Hans */,
+				2F64B4C6245903AC00B80316 /* en */,
+				2F64B4F9245903AC00B80316 /* it */,
+				2F64B51A245903AC00B80316 /* Base */,
+			);
+			name = SettingList.plist;
+			sourceTree = "<group>";
+		};
+		2F64B4AB245903AC00B80316 /* RenderList.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F64B4AC245903AC00B80316 /* zh-Hans */,
+				2F64B4C7245903AC00B80316 /* en */,
+				2F64B4FA245903AC00B80316 /* it */,
+				2F64B51B245903AC00B80316 /* Base */,
+			);
+			name = RenderList.plist;
+			sourceTree = "<group>";
+		};
+		2F64B4BB245903AC00B80316 /* PDFViewer-Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F64B4BC245903AC00B80316 /* en */,
+				2F64B511245903AC00B80316 /* Base */,
+			);
+			name = "PDFViewer-Info.plist";
+			sourceTree = "<group>";
+		};
+		2F64B4BF245903AC00B80316 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F64B4C0245903AC00B80316 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2F64B50D245903AC00B80316 /* RDLoPDFViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F64B50E245903AC00B80316 /* Base */,
+			);
+			name = RDLoPDFViewController.xib;
+			sourceTree = "<group>";
+		};
+		2F64B517245903AC00B80316 /* RDFileTableController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F64B518245903AC00B80316 /* Base */,
+			);
+			name = RDFileTableController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		58B511ED1A9E6C8500147676 /* Debug */ = {
@@ -215,14 +1155,23 @@
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
-				"$(inherited)",
+					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				OTHER_LDFLAGS = "-ObjC";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PDFViewer/PDFLib",
+					"$(PROJECT_DIR)/PDFLib",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+					"-lz",
+				);
 				PRODUCT_NAME = Radaeepdf;
 				SKIP_INSTALL = YES;
 			};
@@ -231,14 +1180,23 @@
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				OTHER_LDFLAGS = "-ObjC";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PDFViewer/PDFLib",
+					"$(PROJECT_DIR)/PDFLib",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+					"-lz",
+				);
 				PRODUCT_NAME = Radaeepdf;
 				SKIP_INSTALL = YES;
 			};
