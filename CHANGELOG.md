@@ -1,3 +1,10 @@
+## [0.3.4](https://github.com/hamidfzm/react-native-radaeepdf/compare/v0.3.3...v0.3.4) (2021-06-04)
+
+
+### Bug Fixes
+
+* **android:** java package names ([bdb042f](https://github.com/hamidfzm/react-native-radaeepdf/commit/bdb042f7e535ab5ca6769b987fc4bea20611fee3))
+
 ## [0.3.3](https://github.com/hamidfzm/react-native-radaeepdf/compare/v0.3.2...v0.3.3) (2021-06-04)
 
 
