@@ -1,6 +1,6 @@
 {
   "name": "react-native-radaeepdf",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "React Native RadaeePDF for Android, iOS, &amp; Windows",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
