@@ -8,21 +8,25 @@ import {
 import { View, Platform } from 'react-native';
 import type {
   PDFView as Props,
-  ChangeEvent,
+  PageChangeEvent,
   EventHandler,
-  ModifyEvent,
+  PageModifyEvent,
   DoubleTapEvent,
   BlankTapEvent,
   LongPressEvent,
   SelectEndEvent,
   AnnotTapEvent,
   PDFViewRef as Ref,
+  ErrorEvent,
+  NativePDFViewProps,
 } from './types';
 import { Markup, Mode } from './constants';
 
 const uiViewClassName = 'RadaeepdfView';
 const RNView =
-  Platform.OS === 'ios' ? View : requireNativeComponent<any>(uiViewClassName);
+  Platform.OS === 'ios'
+    ? View
+    : requireNativeComponent<NativePDFViewProps>(uiViewClassName);
 
 const getLayoutSizeForPixelSize = (pixelSize: number) =>
   Math.round(pixelSize / PixelRatio.get());
@@ -36,23 +40,24 @@ const PDFView: React.ForwardRefRenderFunction<Ref, Props> = (
     onAnnotTap,
     onLongPress,
     onSelectEnd,
-    mode,
+    mode = 'Vertical',
+    onError,
     ...rest
   },
   ref
 ) => {
   const nativeRef = React.useRef(null);
 
-  const handleChange = React.useCallback<EventHandler<ChangeEvent>>(
+  const handleChange = React.useCallback<EventHandler<PageChangeEvent>>(
     (event) => {
       onPageChange?.(event.nativeEvent.page);
     },
     [onPageChange]
   );
 
-  const handleModified = React.useCallback<EventHandler<ModifyEvent>>(
+  const handleModified = React.useCallback<EventHandler<PageModifyEvent>>(
     (event) => {
-      onPageModified(event.nativeEvent.page);
+      onPageModified?.(event.nativeEvent.page);
     },
     [onPageModified]
   );
@@ -109,6 +114,16 @@ const PDFView: React.ForwardRefRenderFunction<Ref, Props> = (
     [onAnnotTap]
   );
 
+  const handleError = React.useCallback<EventHandler<ErrorEvent>>(
+    (event) => {
+      const {
+        nativeEvent: { message },
+      } = event;
+      onError?.(message);
+    },
+    [onError]
+  );
+
   const handleNativeMethod = React.useCallback(async (method, args = []) => {
     if (nativeRef.current) {
       const handle = findNodeHandle(nativeRef.current);
@@ -157,6 +172,7 @@ const PDFView: React.ForwardRefRenderFunction<Ref, Props> = (
       onLongPress={handleLongPress}
       onSelectEnd={handleSelectEnd}
       onAnnotTap={handleAnnotTap}
+      onError={handleError}
     />
   );
 };
