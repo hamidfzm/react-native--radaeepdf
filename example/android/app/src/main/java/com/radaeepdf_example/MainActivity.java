@@ -1,4 +1,4 @@
-package com.RadaeepdfExample;
+package com.radaeepdf_example;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "RadaeepdfExample";
+    return "radaeepdf_example";
   }
 }
