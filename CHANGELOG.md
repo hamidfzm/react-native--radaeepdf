@@ -1,3 +1,10 @@
+## [0.3.5](https://github.com/hamidfzm/react-native-radaeepdf/compare/v0.3.4...v0.3.5) (2021-06-04)
+
+
+### Bug Fixes
+
+* **android:** manifest & resource build issues ([47a69df](https://github.com/hamidfzm/react-native-radaeepdf/commit/47a69df13b38e87c94ac88529c223c800aa94205))
+
 ## [0.3.4](https://github.com/hamidfzm/react-native-radaeepdf/compare/v0.3.3...v0.3.4) (2021-06-04)
 
 
