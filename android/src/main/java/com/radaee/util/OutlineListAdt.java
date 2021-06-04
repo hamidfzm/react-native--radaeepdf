@@ -12,7 +12,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.radaee.pdf.Document;
-import com.radaee.viewlib.R;
+import com.radaee.R;
 
 
 public class OutlineListAdt implements ListAdapter

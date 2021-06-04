@@ -6,7 +6,7 @@ import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.os.Environment;
 
-import com.radaee.viewlib.R;
+import com.radaee.R;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -15,7 +15,7 @@ import java.io.InputStream;
 
 /**
  * class for Global setting.
- * 
+ *
  * @author Radaee
  * @version 3.52.2
  */
@@ -55,7 +55,7 @@ public class Global
 	/**
 	 * map a face name to another name.<br/>
 	 * invoke after fontfileListEnd and before setDefaultFont.
-	 * 
+	 *
 	 * @param map_name
 	 *            mapping name
 	 * @param name
@@ -77,7 +77,7 @@ public class Global
 	/**
 	 * active license for premium version.<br/>
 	 * this is full version for all features.
-	 * 
+	 *
 	 * @param context
 	 *            Context object
 	 * @param company
@@ -94,7 +94,7 @@ public class Global
 	/**
 	 * active license for professional version.<br/>
 	 * this is for annotation editing version but no form features.
-	 * 
+	 *
 	 * @param context
 	 *            Context object
 	 * @param company
@@ -111,7 +111,7 @@ public class Global
 	/**
 	 * active license for standard version.<br/>
 	 * this can't save and edit and no reflow function.
-	 * 
+	 *
 	 * @param context
 	 *            Context object
 	 * @param company
@@ -129,7 +129,7 @@ public class Global
 	 * active license for premium version.<br/>
 	 * this is full version for all features.<br/>
 	 * the license for this method is binding to version string, see Global.getVersion();
-	 * 
+	 *
 	 * @param context
 	 *            Context object
 	 * @param company
@@ -164,7 +164,7 @@ public class Global
 	 * active license for standard version.<br/>
 	 * this can't save and edit and no reflow function.<br/>
 	 * the license for this method is binding to version string, see Global.getVersion();
-	 * 
+	 *
 	 * @param context
 	 *            Context object
 	 * @param company
@@ -181,7 +181,7 @@ public class Global
 	/**
 	 * active license for time limit. features same as professional version, but
 	 * actived only in date range from dt1 to dt2.
-	 * 
+	 *
 	 * @param context
 	 *            Context object
 	 * @param company
@@ -209,7 +209,7 @@ public class Global
 
 	/**
 	 * hide all annotations when render pages?
-	 * 
+	 *
 	 * @param hide
 	 *            true to hide, false to show.
 	 */
@@ -239,7 +239,7 @@ public class Global
 	/**
 	 * set annotation transparency color.<br/>
 	 * default value: 0x200040FF
-	 * 
+	 *
 	 * @param color
 	 *            formated as 0xAARRGGBB
 	 */
@@ -815,7 +815,7 @@ public class Global
 
 	/**
 	 * map PDF point to DIB point.
-	 * 
+	 *
 	 * @param mat
 	 *            Matrix object defined scale, rotate, tranlate operations.
 	 * @param ppoint
@@ -829,7 +829,7 @@ public class Global
 
 	/**
 	 * map DIB point to PDF point.
-	 * 
+	 *
 	 * @param mat
 	 *            Matrix object defined scale, rotate, tranlate operations.
 	 * @param dpoint
@@ -843,7 +843,7 @@ public class Global
 
 	/**
 	 * map PDF rectangle to DIB rectangle.
-	 * 
+	 *
 	 * @param mat
 	 *            Matrix object defined scale, rotate, tranlate operations.
 	 * @param prect
@@ -859,7 +859,7 @@ public class Global
 
 	/**
 	 * map DIB rectangle to PDF rectangle.
-	 * 
+	 *
 	 * @param mat
 	 *            Matrix object defined scale, rotate, tranlate operations.
 	 * @param drect
@@ -875,7 +875,7 @@ public class Global
 
 	/**
 	 * map PDF point to DIB point.
-	 * 
+	 *
 	 * @param ratio
 	 *            scale value apply to page rendering.
 	 * @param dib_h
@@ -893,7 +893,7 @@ public class Global
 
 	/**
 	 * map DIB point to PDF point.
-	 * 
+	 *
 	 * @param ratio
 	 *            scale value apply to page rendering.
 	 * @param dib_h
@@ -911,7 +911,7 @@ public class Global
 
 	/**
 	 * map PDF rectangle to DIB rectangle.
-	 * 
+	 *
 	 * @param ratio
 	 *            scale value apply to page rendering.
 	 * @param dib_h
@@ -933,7 +933,7 @@ public class Global
 
 	/**
 	 * map DIB rectangle to PDF rectangle.
-	 * 
+	 *
 	 * @param ratio
 	 *            scale value apply to page rendering.
 	 * @param dib_h

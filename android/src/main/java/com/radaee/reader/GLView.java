@@ -52,7 +52,7 @@ import com.radaee.view.GLLayoutVert;
 import com.radaee.view.GLPage;
 import com.radaee.view.ILayoutView;
 import com.radaee.view.VSel;
-import com.radaee.viewlib.R;
+import com.radaee.R;
 
 import java.util.ArrayList;
 import java.util.List;

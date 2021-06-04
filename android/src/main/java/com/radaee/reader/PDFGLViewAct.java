@@ -25,7 +25,7 @@ import com.radaee.pdf.Page.Annotation;
 import com.radaee.util.PDFAssetStream;
 import com.radaee.util.PDFHttpStream;
 import com.radaee.view.ILayoutView;
-import com.radaee.viewlib.R;
+import com.radaee.R;
 
 public class PDFGLViewAct extends Activity implements ILayoutView.PDFLayoutListener
 {
@@ -121,7 +121,7 @@ public class PDFGLViewAct extends Activity implements ILayoutView.PDFLayoutListe
         super.onCreate(savedInstanceState);
         //plz set this line to Activity in AndroidManifes.xml:
         //    android:configChanges="orientation|keyboardHidden|screenSize"
-        //otherwise, APP shall destroy this Activity and re-create a new Activity when rotate. 
+        //otherwise, APP shall destroy this Activity and re-create a new Activity when rotate.
         Global.Init( this );
 		m_layout = (RelativeLayout)LayoutInflater.from(this).inflate(R.layout.pdf_gllayout, null);
 		m_view = (PDFGLLayoutView)m_layout.findViewById(R.id.pdf_view);
@@ -232,7 +232,7 @@ public class PDFGLViewAct extends Activity implements ILayoutView.PDFLayoutListe
         }
     	m_view.BundleRestorePos(savedInstanceState);
     }
-    
+
     @Override
     public void onBackPressed()
     {
@@ -258,7 +258,7 @@ public class PDFGLViewAct extends Activity implements ILayoutView.PDFLayoutListe
 				           {
 				        	   PDFGLViewAct.super.onBackPressed();
 				           }
-				       }).show(); 
+				       }).show();
         	}
         	else super.onBackPressed();
     	}
@@ -335,7 +335,7 @@ public class PDFGLViewAct extends Activity implements ILayoutView.PDFLayoutListe
 	                    Toast.makeText(PDFGLViewAct.this, "todo copy text:" + sel_text, Toast.LENGTH_SHORT).show();
 	                    android.content.ClipboardManager clipboard = (android.content.ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
 	                    android.content.ClipData clip = android.content.ClipData.newPlainText("Radaee", sel_text);
-	                    clipboard.setPrimaryClip(clip);                    
+	                    clipboard.setPrimaryClip(clip);
 			        }
 			        else if( rad_group.getCheckedRadioButtonId() == R.id.rad_highlight )
 						ret = m_view.PDFSetSelMarkup(0);

@@ -50,7 +50,7 @@ import com.radaee.view.PDFLayoutHorz;
 import com.radaee.view.PDFLayoutVert;
 import com.radaee.view.VPage;
 import com.radaee.view.VSel;
-import com.radaee.viewlib.R;
+import com.radaee.R;
 
 import java.util.ArrayList;
 import java.util.List;

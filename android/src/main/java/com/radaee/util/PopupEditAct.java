@@ -16,7 +16,7 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.RelativeLayout;
 
-import com.radaee.viewlib.R;
+import com.radaee.R;
 
 public class PopupEditAct extends Activity {
 

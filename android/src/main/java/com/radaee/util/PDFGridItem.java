@@ -15,7 +15,7 @@ import com.radaee.pdf.Document;
 import com.radaee.pdf.Global;
 import com.radaee.pdf.Matrix;
 import com.radaee.pdf.Page;
-import com.radaee.viewlib.R;
+import com.radaee.R;
 
 import java.io.File;
 

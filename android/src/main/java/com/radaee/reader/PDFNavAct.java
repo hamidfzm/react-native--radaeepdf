@@ -22,7 +22,7 @@ import com.radaee.pdf.Document;
 import com.radaee.pdf.Global;
 import com.radaee.util.PDFGridItem;
 import com.radaee.util.PDFGridView;
-import com.radaee.viewlib.R;
+import com.radaee.R;
 
 public class PDFNavAct extends Activity implements OnItemClickListener
 {
@@ -106,7 +106,7 @@ public class PDFNavAct extends Activity implements OnItemClickListener
         super.onCreate(savedInstanceState);
         //plz set this line to Activity in AndroidManifes.xml:
         //    android:configChanges="orientation|keyboardHidden|screenSize"
-        //otherwise, APP shall destroy this Activity and re-create a new Activity when rotate. 
+        //otherwise, APP shall destroy this Activity and re-create a new Activity when rotate.
         Global.Init( this );
         m_engine = getIntent().getStringExtra("ENGINE");
 		m_layout = (LinearLayout)LayoutInflater.from(this).inflate(R.layout.pdf_nav, null);
@@ -157,7 +157,7 @@ public class PDFNavAct extends Activity implements OnItemClickListener
         builder.setTitle(R.string.input_password);
 		builder.setCancelable(false);
 		builder.setView(layout);
-		
+
 		AlertDialog dlg = builder.create();
 		dlg.show();
     }
@@ -188,7 +188,7 @@ public class PDFNavAct extends Activity implements OnItemClickListener
         else
         {
 		PDFViewAct.ms_tran_doc = doc;
-		Intent intent = new Intent(this, PDFViewAct.class);  
+		Intent intent = new Intent(this, PDFViewAct.class);
 		startActivity(intent);
         }
     }
