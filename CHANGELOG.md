@@ -1,3 +1,5 @@
+## [0.3.6](https://github.com/hamidfzm/react-native-radaeepdf/compare/v0.3.5...v0.3.6) (2021-06-04)
+
 ## [0.3.5](https://github.com/hamidfzm/react-native-radaeepdf/compare/v0.3.4...v0.3.5) (2021-06-04)
 
 
