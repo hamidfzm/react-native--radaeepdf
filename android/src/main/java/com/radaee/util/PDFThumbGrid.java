@@ -8,7 +8,7 @@ import androidx.annotation.Nullable;
 import com.radaee.pdf.Document;
 import com.radaee.pdf.Global;
 import com.radaee.view.PDFViewThumb;
-import com.radaee.R;
+import com.radaee.reactnative.R;
 
 /**
  * @author Nermeen created on 24/01/2017.

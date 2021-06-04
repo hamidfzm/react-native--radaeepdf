@@ -6,7 +6,7 @@ import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.os.Environment;
 
-import com.radaee.R;
+import com.radaee.reactnative.R;
 
 import java.io.File;
 import java.io.FileInputStream;

@@ -16,7 +16,7 @@ import android.widget.Toast;
 
 import com.radaee.pdf.BMDatabase;
 import com.radaee.pdf.Global;
-import com.radaee.R;
+import com.radaee.reactnative.R;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

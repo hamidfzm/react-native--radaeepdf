@@ -22,7 +22,7 @@ import com.radaee.pdf.Document;
 import com.radaee.pdf.Global;
 import com.radaee.util.PDFGridItem;
 import com.radaee.util.PDFGridView;
-import com.radaee.R;
+import com.radaee.reactnative.R;
 
 public class PDFNavAct extends Activity implements OnItemClickListener
 {

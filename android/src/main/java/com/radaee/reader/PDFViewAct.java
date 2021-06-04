@@ -33,7 +33,7 @@ import com.radaee.util.PDFAssetStream;
 import com.radaee.util.PDFHttpStream;
 import com.radaee.util.RadaeePluginCallback;
 import com.radaee.view.ILayoutView;
-import com.radaee.R;
+import com.radaee.reactnative.R;
 
 import java.io.FileOutputStream;
 

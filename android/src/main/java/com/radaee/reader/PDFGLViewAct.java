@@ -25,7 +25,7 @@ import com.radaee.pdf.Page.Annotation;
 import com.radaee.util.PDFAssetStream;
 import com.radaee.util.PDFHttpStream;
 import com.radaee.view.ILayoutView;
-import com.radaee.R;
+import com.radaee.reactnative.R;
 
 public class PDFGLViewAct extends Activity implements ILayoutView.PDFLayoutListener
 {

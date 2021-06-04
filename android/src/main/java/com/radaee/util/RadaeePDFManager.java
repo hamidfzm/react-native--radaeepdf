@@ -10,7 +10,7 @@ import com.radaee.pdf.Global;
 import com.radaee.pdf.Page;
 import com.radaee.reader.PDFGLViewAct;
 import com.radaee.reader.PDFViewAct;
-import com.radaee.R;
+import com.radaee.reactnative.R;
 
 import java.io.File;
 

@@ -13,7 +13,7 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 
 import com.github.gcacace.signaturepad.views.SignaturePad;
-import com.radaee.R;
+import com.radaee.reactnative.R;
 
 /*
  * AndroidPDFSample

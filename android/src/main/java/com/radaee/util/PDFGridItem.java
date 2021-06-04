@@ -15,7 +15,7 @@ import com.radaee.pdf.Document;
 import com.radaee.pdf.Global;
 import com.radaee.pdf.Matrix;
 import com.radaee.pdf.Page;
-import com.radaee.R;
+import com.radaee.reactnative.R;
 
 import java.io.File;
 

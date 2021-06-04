@@ -20,7 +20,7 @@ import com.radaee.pdf.ResImage;
 import com.radaee.pdf.adv.Obj;
 import com.radaee.pdf.adv.Ref;
 import com.radaee.view.ILayoutView;
-import com.radaee.R;
+import com.radaee.reactnative.R;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
