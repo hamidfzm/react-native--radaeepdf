@@ -1,6 +1,6 @@
 import { NativeModules } from 'react-native';
 
-import { License } from './types';
+import type { License } from './types';
 
 const { Radaeepdf } = NativeModules;
 

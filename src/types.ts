@@ -1,5 +1,5 @@
-import { NativeSyntheticEvent } from 'react-native';
-import { Markup, Mode } from './constants';
+import type { NativeSyntheticEvent } from 'react-native';
+import type { Markup, Mode } from './constants';
 
 export type License = {
   type: number;

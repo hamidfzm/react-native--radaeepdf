@@ -6,7 +6,7 @@ import {
   PixelRatio,
 } from 'react-native';
 import { View, Platform } from 'react-native';
-import {
+import type {
   PDFView as Props,
   ChangeEvent,
   EventHandler,
@@ -44,14 +44,14 @@ const PDFView: React.ForwardRefRenderFunction<Ref, Props> = (
   const nativeRef = React.useRef(null);
 
   const handleChange = React.useCallback<EventHandler<ChangeEvent>>(
-    event => {
+    (event) => {
       onPageChange?.(event.nativeEvent.page);
     },
     [onPageChange]
   );
 
   const handleModified = React.useCallback<EventHandler<ModifyEvent>>(
-    event => {
+    (event) => {
       onPageModified(event.nativeEvent.page);
     },
     [onPageModified]
@@ -62,7 +62,7 @@ const PDFView: React.ForwardRefRenderFunction<Ref, Props> = (
   }, [onBlankTap]);
 
   const handleDoubleTap = React.useCallback<EventHandler<DoubleTapEvent>>(
-    event => {
+    (event) => {
       const {
         nativeEvent: { x, y },
       } = event;
@@ -72,7 +72,7 @@ const PDFView: React.ForwardRefRenderFunction<Ref, Props> = (
   );
 
   const handleLongPress = React.useCallback<EventHandler<LongPressEvent>>(
-    event => {
+    (event) => {
       const {
         nativeEvent: { x, y },
       } = event;
@@ -82,7 +82,7 @@ const PDFView: React.ForwardRefRenderFunction<Ref, Props> = (
   );
 
   const handleSelectEnd = React.useCallback<EventHandler<SelectEndEvent>>(
-    event => {
+    (event) => {
       const {
         nativeEvent: { text, x, y },
       } = event;
@@ -96,7 +96,7 @@ const PDFView: React.ForwardRefRenderFunction<Ref, Props> = (
   );
 
   const handleAnnotTap = React.useCallback<EventHandler<AnnotTapEvent>>(
-    event => {
+    (event) => {
       const {
         nativeEvent: { x, y, selected },
       } = event;
@@ -136,7 +136,8 @@ const PDFView: React.ForwardRefRenderFunction<Ref, Props> = (
     ref,
     () => ({
       setSelect: () => handleNativeMethod('setSelect'),
-      setSelMarkup: type => handleNativeMethod('setSelMarkup', [Markup[type]]),
+      setSelMarkup: (type) =>
+        handleNativeMethod('setSelMarkup', [Markup[type]]),
       undo: () => handleNativeMethod('undo'),
       redo: () => handleNativeMethod('redo'),
       save: () => handleNativeMethod('save'),

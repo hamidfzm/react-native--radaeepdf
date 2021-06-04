@@ -1,4 +1,4 @@
-import { License } from './types';
+import type { License } from './types';
 
 const Show = (path: string, password?: string) => console.log(path, password);
 
