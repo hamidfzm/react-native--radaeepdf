@@ -1,3 +1,10 @@
+## [0.3.3](https://github.com/hamidfzm/react-native-radaeepdf/compare/v0.3.2...v0.3.3) (2021-06-04)
+
+
+### Bug Fixes
+
+* **android:** manifest package name ([804b781](https://github.com/hamidfzm/react-native-radaeepdf/commit/804b7818f20f0615ed82332437bd4e93969b857b))
+
 ## [0.3.2](https://github.com/hamidfzm/react-native-radaeepdf/compare/v0.3.1...v0.3.2) (2021-06-04)
 
 
