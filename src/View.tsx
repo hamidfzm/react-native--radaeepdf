@@ -22,7 +22,7 @@ import { Markup, Mode } from './constants';
 
 const uiViewClassName = 'RadaeepdfView';
 const RNView =
-  Platform.OS === 'ios' ? View : requireNativeComponent(uiViewClassName);
+  Platform.OS === 'ios' ? View : requireNativeComponent<any>(uiViewClassName);
 
 const getLayoutSizeForPixelSize = (pixelSize: number) =>
   Math.round(pixelSize / PixelRatio.get());
