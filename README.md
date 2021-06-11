@@ -2,6 +2,10 @@
 
 React Native RadaeePDF for Android, iOS, &amp; Windows
 
+## Features
+- [x] Cross Platform
+- [x] Typescript
+
 ## Installation
 
 ### npm
@@ -13,6 +17,21 @@ npm install --save react-native-radaeepdf
 ```sh
 yarn add react-native-radaeepdf
 ```
+
+## Proguard
+If you use Proguard you will need to add these lines to `android/app/proguard-rules.pro`:
+
+```
+-keep class com.radaee.** { *; }
+-keepclasseswithmembernames class com.radaee.** { *; }
+```
+
+## Implementation status
+
+| Implementation 	| Android 	| iOS 	| Windows 	| Web 	|
+|----------------	|---------	|-----	|---------	|-----	|
+| Module         	| ✅       	| ✅   	| ❌       	| ❌   	|
+| View           	| ✅       	| ❌   	| ❌       	| ❌   	|
 
 ## Usage
 There are 2 ways to use this library:
@@ -30,6 +49,9 @@ There are 2 ways to use this library:
 
 ## Contributing
 See the [CONTRIBUTING](CONTRIBUTING.md) file for how to help out.
+
+## Release Notes
+See the [CHANGELOG](CHANGELOG.md).
 
 ## License
 This library is licensed under the [MIT Licence](LICENSE).
