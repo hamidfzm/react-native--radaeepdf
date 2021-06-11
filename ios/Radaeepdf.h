@@ -1,5 +1,9 @@
 #import <React/RCTBridgeModule.h>
 
-@interface Radaeepdf : NSObject <RCTBridgeModule>
+#import "RadaeePDFPlugin.h"
+
+@interface Radaeepdf : NSObject <RCTBridgeModule> {
+    RadaeePDFPlugin *plugin;
+}
 
 @end

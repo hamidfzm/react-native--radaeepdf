@@ -13,7 +13,8 @@ Pod::Spec.new do |s|
   s.platforms    = { :ios => "10.0" }
   s.source       = { :git => "https://github.com/hamidfzm/react-native-radaeepdf.git", :tag => "#{s.version}" }
 
-  s.source_files = "ios/**/*.*"
+  s.source_files = "ios/**/*.{h,m,mm}"
+  s.resources = "ios/**/*.{ttf,dat,otf,storyboard,xib,xcassets}"
   s.prefix_header_file = 'ios/PDFViewer/PDFViewer-Prefix.pch'
   s.preserve_paths = 'ios/PDFViewer/PDFLib/.a'
   s.xcconfig = {
