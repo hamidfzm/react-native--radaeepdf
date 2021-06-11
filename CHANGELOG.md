@@ -1,3 +1,15 @@
+# [0.4.0](https://github.com/hamidfzm/react-native-radaeepdf/compare/v0.3.6...v0.4.0) (2021-06-11)
+
+
+### Bug Fixes
+
+* **ios:** radaeepdf build issues for module ([adf4179](https://github.com/hamidfzm/react-native-radaeepdf/commit/adf417912b2110fcc3e4c50843ef2cdd3ed59e3c))
+
+
+### Features
+
+* **ios:** implement module methods ([8c37ba0](https://github.com/hamidfzm/react-native-radaeepdf/commit/8c37ba024ce012cd755108cce89c9087f2dee888))
+
 ## [0.3.6](https://github.com/hamidfzm/react-native-radaeepdf/compare/v0.3.5...v0.3.6) (2021-06-04)
 
 ## [0.3.5](https://github.com/hamidfzm/react-native-radaeepdf/compare/v0.3.4...v0.3.5) (2021-06-04)
